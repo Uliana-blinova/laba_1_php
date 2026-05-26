@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0ead8;
+    position: relative;
+    overflow: hidden;
+}
+.main{
+    margin: 45px 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 745px;
+}
+h2{
+    margin: 25px auto 20px;
+}
+form{
+    background-color: #aec7e0;
+    border-radius: 20px;
+    padding: 0 25px 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input{
+    display: block;
+    margin: 10px auto 0;
+    padding: 5px 25px;
+    border-radius: 15px;
+    border: none;
+}
+form > button{
+    padding: 5px 15px;
+    width: 70%;
+    border-radius: 20px;
+    background-color: #98ad57;
+    border: none;
+    color: beige;
+    display: block;
+    margin: 0 auto;
+}
+form > label{
+    display: block;
+    margin: 0 auto;
+}
+.resultat{
+    background-color: #98ad57;
+    border-radius: 20px;
+    padding: 25px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 45px;
+    gap: 20px;
+}
+.resultat > p{
+    color: #563526;
+}
+.flower {
+    position: absolute;
+    width: 250px; 
+    height: auto;
+    margin: 0;
+    padding: 0;
+    z-index: 1; 
+}
+
+.top-left {
+    top: -100px;
+    left: -60px;
+}
+
+.top-right {
+    top: -100px;
+    right: -60px;
+}
+
+.bottom-left {
+    bottom: -100px;
+    left: -60px;
+}
+
+.bottom-right {
+    bottom: -100px;
+    right: -60px;
+}
+
+.output > p{
+    color: black;
+}
